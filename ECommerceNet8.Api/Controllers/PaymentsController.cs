@@ -12,7 +12,6 @@ using Microsoft.AspNetCore.Identity;
 using ECommerceNet8.Infrastructure.Data.AuthModels;
 using ECommerceNet8.Infrastructure.Data.OrderModels;
 using ECommerceNet8.Models.OrderModels;
-using Stripe.Issuing;
 using ECommerceNet8.Core.Reposiatories.OrderRepository;
 
 namespace ECommerceNet8.Api.Controllers

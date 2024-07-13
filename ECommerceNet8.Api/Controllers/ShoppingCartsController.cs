@@ -1,11 +1,8 @@
 ﻿using ECommerceNet8.Core.DTOS.ShoppingCartDto.Request;
-using ECommerceNet8.Core.DTOS.ShoppingCartDto.Response;
 using ECommerceNet8.Core.Reposiatories.RedisCartReposaitory;
-using ECommerceNet8.Core.Reposiatories.ShoppingcartReposaitory;
 using ECommerceNet8.Infrastructure.Data;
 using ECommerceNet8.Infrastructure.Data.ShoppingCartModels;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;

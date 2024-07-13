@@ -1,14 +1,10 @@
-﻿using ECommerceNet8.Core.DTOS.ProductDtos.Response;
-using ECommerceNet8.Core.Reposiatories.OrderRepository;
+﻿using ECommerceNet8.Core.Reposiatories.OrderRepository;
 using ECommerceNet8.Core.Reposiatories.RedisCartReposaitory;
 using ECommerceNet8.Infrastructure.Constants;
 using ECommerceNet8.Infrastructure.Data;
 using ECommerceNet8.Infrastructure.Data.AuthModels;
 using ECommerceNet8.Infrastructure.Data.OrderModels;
-using ECommerceNet8.Infrastructure.Data.ProductModels;
-using ECommerceNet8.Models.OrderModels;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.StaticFiles;

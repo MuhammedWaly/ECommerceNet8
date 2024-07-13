@@ -1,6 +1,5 @@
 ﻿using ECommerceNet8.Infrastructure.Data.ProductModels;
 using ECommerceNet8.Infrastructure.Data;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ECommerceNet8.Core.DTOS.ProductVariantDtos;

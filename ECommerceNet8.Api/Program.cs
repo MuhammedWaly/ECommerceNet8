@@ -5,11 +5,7 @@ using ECommerceNet8.Core.Reposiatories.BaseProductsReposaitory;
 using ECommerceNet8.Core.Reposiatories.MainCategoryReposaitory;
 using ECommerceNet8.Core.Reposiatories.MaterialReposaitory;
 using ECommerceNet8.Core.Reposiatories.OrderRepository;
-using ECommerceNet8.Core.Reposiatories.PaymentReposaitory;
 using ECommerceNet8.Core.Reposiatories.RedisCartReposaitory;
-
-using ECommerceNet8.Core.Reposiatories.ShoppingcartReposaitory;
-
 using ECommerceNet8.Core.Services;
 using ECommerceNet8.Core.Settings;
 using ECommerceNet8.Infrastructure.Data;
@@ -19,8 +15,6 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using Stripe;
-using System.Configuration;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);

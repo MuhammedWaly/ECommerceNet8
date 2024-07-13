@@ -1,10 +1,7 @@
-﻿using ECommerceNet8.Core.DTOS.ProductDtos.Request;
-using ECommerceNet8.Infrastructure.Data;
+﻿using ECommerceNet8.Infrastructure.Data;
 using ECommerceNet8.Infrastructure.Data.ProductModels;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using System.Drawing;
 
 namespace ECommerceNet8.Api.Controllers
 {

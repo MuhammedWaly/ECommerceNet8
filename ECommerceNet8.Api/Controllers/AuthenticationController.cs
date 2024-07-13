@@ -3,16 +3,11 @@ using ECommerceNet8.Core.DTOS.ApplicationUsers.Response;
 using ECommerceNet8.Core.Reposiatories.AuthReposaitory;
 using ECommerceNet8.Core.Services;
 using ECommerceNet8.Infrastructure.Data.AuthModels;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.WebUtilities;
 using System.Security.Claims;
 using System.Text;
-using System.Transactions;
-using static Org.BouncyCastle.Crypto.Engines.SM2Engine;
 
 namespace ECommerceNet8.Api.Controllers
 {

@@ -1,6 +1,5 @@
 ﻿using ECommerceNet8.Core.DTOS.MainCatergoryDtos.Request;
 using ECommerceNet8.Core.Reposiatories.MainCategoryReposaitory;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ECommerceNet8.Api.Controllers

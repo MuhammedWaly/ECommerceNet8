@@ -1,9 +1,7 @@
 ﻿using ECommerceNet8.DTOs.AddressDtos.Request;
 using ECommerceNet8.DTOs.AddressDtos.Response;
 using ECommerceNet8.Infrastructure.Data.OrderModels;
-using ECommerceNet8.Models.OrderModels;
 using ECommerceNet8.Core.Reposiatories.AddressRepository;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
 using ECommerceNet8.Infrastructure.Constants;
